@@ -1,13 +1,19 @@
-p{
-    color: tomato;
+nav ul {
+  display: flex;
+  list-style: none;
+  background-color: aquamarine;
+  background-color: green;
+  background-color: aquamarine;
+}
+nav li {
+  flex: 1;
+}
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.8rem;
+}
 
-}
-p{
-    color: yellowgreen;
-}
-h1{
-    color: mediumvioletred;
-}
-p2{
-    color: rgb(226, 43, 43);
-}
+.ingredient {
+  flex: 1;
+}/*# sourceMappingURL=style.css.map */

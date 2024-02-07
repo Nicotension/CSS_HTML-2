@@ -1,0 +1,16 @@
+nav{
+    ul{
+        display: flex;
+        list-style: none;
+        background-color: aquamarine;
+        background-color: green;
+        background-color: aquamarine;
+    }
+    li{
+        flex: 1;
+    }
+    a{
+        text-decoration: none;
+        display: inline-block;
+        padding: .8rem;
+    }
